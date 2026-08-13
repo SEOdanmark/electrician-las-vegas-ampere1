@@ -18,73 +18,189 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
-.navbar a{
-font-size: 18.5px!important;
-font-weight: bold;
+.dropdown-item{
+display: block;
+width: 100%;
+clear: both;
+font-weight: 400;
+color: #212529;
+text-align: inherit;
+white-space: nowrap;
+background-color: transparent;
+border: 0;
 }
-.x239f17c25a29a23ad3e0d8add5e597a3 p,.x239f17c25a29a23ad3e0d8add5e597a3 a,.x239f17c25a29a23ad3e0d8add5e597a3 span,.x239f17c25a29a23ad3e0d8add5e597a3 label{
-font-size:16px!important;
+.hamburger span:nth-child(4){
+top: 16px;
+transition: all 0.2s;
 }
-.b31f6a0518681d8c5a0456605470f020f:hover{
-box-shadow: 0 49.7px 49.8px -25px rgb(0 0 0 / 30%);
-transform: rotate(-2deg) scale(1.03);
+.fa-star,.fa-star-half-alt{
+font-size: 14.5px;
 }
-.x625dabd917891800cc70cc04ec5184ed{
+.e9804aa3865841f6f3f2a0ce90ea52f25,.e9804aa3865841f6f3f2a0ce90ea52f25:active{
 background-color:#ffc107!important;
-border-color:#ffc107!important;
+border-color:#000000!important;
 color:#000000!important;
+padding: 9.6px 19.9px!important;
+border-radius: 0;
+font-weight: 700!important;
+letter-spacing: 0px;
+transition-property: all;
+transition-duration: .2s;
+min-width: 200.1px !important;
 }
-html{
-scroll-behavior: smooth;
+.u5e9d01511208298521ba8dd3a6309563 ul{
+padding-left: 0px;
 }
-.x239f17c25a29a23ad3e0d8add5e597a3 a,.f64f0f366ab6ad3d8d88c3f92a26cd197 a{
-color:#030303!important;
-text-decoration: underline !important;
+.hamburger span:nth-child(3){
+top: 8px;
+transition: all 0.15s;
 }
-footer a{
-color:#ffffff;
-text-decoration: underline;
+.navbar{
+background: #ffffff;
+transition: none;
+min-height: 76.5px;
+padding-top: 10.5px;
+padding-bottom: 10.2px;
+position: relative;
+z-index: 1000;
+box-shadow: 0 0 14.6px 0 rgb(0 0 0 / 10%);
+}
+.hamburger span:nth-child(2){
+top: 8px;
+transition: all 0.15s;
 }
 *{
 font-family: 'Kumbh Sans', sans-serif;
 }
-.f64f0f366ab6ad3d8d88c3f92a26cd197 a{
-font-size:16px;
-}
 a:hover{
-color:#ffffff;background:#ffc658!important;
+color:#ffffff!important;
+background: #ffc658!important;
+opacity: .75;
+text-decoration: none;
 }
-footer *{
-font-size:16px !important;
+.d7299637e08f8e88a226d18678be467da{
+font-weight: 700 !important;
 }
-ul{
-list-style: circle;
+a:hover, a:focus, a.active{
+color:#ffffff!important;
 }
-.nav-item{
-padding-left:8.5px;
-padding-right:8px;
-padding-top:5.3px;
-padding-bottom:4.8px;
+.navbar-nav li:hover>.dropdown-menu{
+display: block;
 }
-.btn-md{
-padding: 14.9px 30.4px;
-border-radius: 0;
+.nav-item .nav-link{
+display: -webkit-flex;
+align-items: center;
+padding: 12px 0!important;
+margin: 0px 19.9px!important;
+-webkit-align-items: center;
+}
+.u5e9d01511208298521ba8dd3a6309563 a{
+color:#ffffff;
+text-decoration: underline;
+}
+.wa89403b76a3a413a09b8a779f18308a1 i{
+font-size: 20.4px;
+padding: 10px;
+}
+.u5e9d01511208298521ba8dd3a6309563 .fa1e2fdd383d0d1d679b6f844f9ce004b{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 1.5rem;
+margin-top: 4rem;
+border-top: 2px solid #ffffff;
+}
+.e9804aa3865841f6f3f2a0ce90ea52f25:hover, .e9804aa3865841f6f3f2a0ce90ea52f25:focus, .e9804aa3865841f6f3f2a0ce90ea52f25.focus, .e9804aa3865841f6f3f2a0ce90ea52f25.active{
+color: #ffffff !important;
+background-color: #000000 !important;
+border-color: #000000 !important;
 }
 .nav-link{
-color: #000000;
-
+color: #000000!important;
 }
 a{
-text-decoration: none!important;
+color: black;
+text-decoration: none;
 }
-.f64f0f366ab6ad3d8d88c3f92a26cd197 p,.f64f0f366ab6ad3d8d88c3f92a26cd197 span,.f64f0f366ab6ad3d8d88c3f92a26cd197 label{
+.u5e9d01511208298521ba8dd3a6309563{
+padding-top: 4rem;
+padding-bottom: 6rem;
+background-color: #0f0f0f;
+bottom: 0;
+z-index: 0;
+width: 100%;
+}
+.hamburger span:nth-child(1){
+top: 0;
+transition: all 0.2s;
+}
+.navbar-toggler{
+-webkit-align-self: flex-start;
+-ms-flex-item-align: start;
+align-self: flex-start;
+padding: 0px 0px;
+font-size: 20.3px;
+line-height: 1;
+background: transparent;
+border: 1px solid transparent!important;
+border-radius: 0.25rem;
+}
+.u5e9d01511208298521ba8dd3a6309563 *{
+color:#ffffff;
 font-size:16px!important;
 }
-footer{
-background:#070707;
-color:#ffffff;
+.hamburger span{
+position: absolute;
+right: 0;
+width: 29.5px;
+height: 2px;
+border-right: 5px;
+background-color: #000000;
 }
-    .dropdown-submenu {
+.nav-link:hover, .dropdown-item:hover{
+ opacity: .75;
+}
+.u5e9d01511208298521ba8dd3a6309563 li{
+list-style: none;
+padding-left: 0;
+margin-top: 1.5rem;
+text-align: left;
+color: #000000;
+}
+button.navbar-toggler{
+width: 31.2px;
+height: 17.7px;
+cursor: pointer;
+transition: all 0.2s;
+top: 2rem;
+display: block;
+right: 1.5rem;
+position: absolute;
+}
+p, .t6e310951b0c082789dae9158729569d9{
+font-size:16px;
+line-height: 1.68;
+font-weight: 400;
+}
+html{
+scroll-behavior: smooth;
+}
+.dropdown .dropdown-menu .dropdown-item{
+width: auto;
+padding: 0.2em 1.3em 0.2em 1.3em !important;
+}
+.dropdown .dropdown-menu{
+background: #ffffff;
+position: absolute;
+display: none;
+min-width: 50.2px;
+padding-top: 10.1px;
+box-shadow: 0 0 14.7px 0 rgb(0 0 0 / 10%);
+padding-bottom: 9.7px;
+text-align: left;
+}
+
+.dropdown-submenu {
     position: relative;
 }
 
@@ -202,32 +318,43 @@ color:#ffffff;
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg">
-<a class="navbar-brand" href="index.html"  ><img alt="img/logo.jpg" src="img/logo.jpg" ></a>
+<nav class="navbar px-md-5 navbar-expand-lg">
+<a class="navbar-brand" href="index.html"  > 
+<img alt="" src="img/logo.jpg"  >
+</a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon  fa fa-bars"></span></button><div class="navbar-collapse collapse" id="navbarSupportedContent">
-<ul class="align-items-center navbar-nav ml-auto d-flex"><li class="nav-item">
-<a class="nav-link wbd3810e5fe1b54c160edf642a89be9a7" href="index.html" >Electrician Las Vegas Near Me</a>
+<div class="hamburger"><span></span><span></span><span></span><span></span></div>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="ml-auto navbar-nav">
+<li class="nav-item">
+<a class="nav-link t6e310951b0c082789dae9158729569d9" href="index.html" ><b>Electrician Las Vegas Near Me</b></a>
 </li>
 <li class="nav-item">
-<a class="nav-link wbd3810e5fe1b54c160edf642a89be9a7" href="residential-electrician-las-vegas.html" >Residential Electrician Las Vegas</a>
+<a class="nav-link t6e310951b0c082789dae9158729569d9" href="residential-electrician-las-vegas.html" ><b>Residential Electrician Las Vegas</b></a>
 </li>
 <li class="nav-item">
-<a class="wbd3810e5fe1b54c160edf642a89be9a7 nav-link" href="electrician-las-vegas-open-now.html" >Electrician Las Vegas Open Now</a>
+<a class="nav-link t6e310951b0c082789dae9158729569d9" href="electrician-las-vegas-open-now.html" ><b>Electrician Las Vegas Open Now</b></a>
 </li>
 <li class="nav-item">
-<a class="nav-link wbd3810e5fe1b54c160edf642a89be9a7" href="las-vegas-electrician.html" >Las Vegas Electrician</a>
+<a class="t6e310951b0c082789dae9158729569d9 nav-link" href="las-vegas-electrician.html" ><b>Las Vegas Electrician</b></a>
 </li>
 <li class="nav-item dropdown">
-<a class="dropdown-toggle nav-link wbd3810e5fe1b54c160edf642a89be9a7" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">More</a>
-<div class="dropdown-menu-right dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="electrician-las-vegas.html"  >Electrician Las Vegas</a><a class="dropdown-item" href="247-electrician-las-vegas.html"  >24/7 Electrician Las Vegas</a><a class="dropdown-item" href="emergency-electrician-las-vegas.html"  >Emergency Electrician Las Vegas</a><a class="dropdown-item" href="same-day-electrician-las-vegas.html"  >Same Day Electrician Las Vegas</a><a class="dropdown-item" href="ampere-electric-las-vegas.html"  >Ampere Electric Las Vegas</a><a class="dropdown-item" href="lighting-contractor-las-vegas.html"  >Lighting Contractor Las Vegas</a></div>
-</li>
-<li class="nav-item"><a class="wbd3810e5fe1b54c160edf642a89be9a7 nav-link" rel=nofollow href="about-us.html">About Us</a>
-</li></ul>
+<a class="t6e310951b0c082789dae9158729569d9 dropdown-toggle nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><b>More</b></a>
+<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+<a class="dropdown-item t6e310951b0c082789dae9158729569d9" href="electrician-las-vegas.html" >Electrician Las Vegas</a>
+<a class="dropdown-item t6e310951b0c082789dae9158729569d9" href="247-electrician-las-vegas.html" >24/7 Electrician Las Vegas</a>
+<a class="t6e310951b0c082789dae9158729569d9 dropdown-item" href="emergency-electrician-las-vegas.html" >Emergency Electrician Las Vegas</a>
+<a class="dropdown-item t6e310951b0c082789dae9158729569d9" href="same-day-electrician-las-vegas.html" >Same Day Electrician Las Vegas</a>
+<a class="t6e310951b0c082789dae9158729569d9 dropdown-item" href="ampere-electric-las-vegas.html" >Ampere Electric Las Vegas</a>
+<a class="dropdown-item t6e310951b0c082789dae9158729569d9" href="lighting-contractor-las-vegas.html" >Lighting Contractor Las Vegas</a>
+</div>
+</li><li class="nav-item"><a class="t6e310951b0c082789dae9158729569d9 nav-link" href="about-us.html"><b>About Us</b></a></li>
+</ul>
 </div>
 </nav>
-<section class="container" style="min-height: 80vh;">
+<div>
+<section class="container">
 <h1>Privacy Policy for </h1>
 <p>At  one of our main priorities is the privacy of our visitors.
  This Privacy Policy document contains types of information that is collected and recorded by  and how we use it. You can check out our main website here: </p>
@@ -289,26 +416,30 @@ This website is owned and published by:
 </br>
 </p>
 </section>
-<footer>
-<div class="container pt-5 py-4" >
-<div class="row"><div class="col-lg-3">
-<p>USEFUL LINKS</p>
-<p><a class="wbd3810e5fe1b54c160edf642a89be9a7" href="https://www.tiktok.com/@ampereelectriclasvegas" rel="nofollow" target="_blank">Same Day Electrician Las Vegas</a></p><p><a class="wbd3810e5fe1b54c160edf642a89be9a7" href="https://www.bbb.org/us/nv/las-vegas/profile/electrical/ampere-electric-1086-90094274" rel="nofollow" target="_blank">Emergency Electrician Las Vegas</a></p></div><div class="col-lg-3"><p><a class="wbd3810e5fe1b54c160edf642a89be9a7" href="sitemap.html" rel="nofollow">Sitemap</a></p>
-<p><a class="wbd3810e5fe1b54c160edf642a89be9a7" href="privacy-policy.html" rel="nofollow">Privacy Policy</a></p>
-<p><a class="wbd3810e5fe1b54c160edf642a89be9a7" href="about-us.html" rel="nofollow">About Us</a></p>
-</p>
-</div><div class="col-lg-3">
-<div>
-<p>Follow us</p>
-<a href="https://www.facebook.com/AmpereElectricNV/" class="ab487048654ee2672ac5e1904eb60216b facebook" rel="nofollow"><i class="fa fa-facebook"></i></a>
-<a href="https://www.linkedin.com/company/ampere-electric-las-vegas/" class="ab487048654ee2672ac5e1904eb60216b pinterest" rel="nofollow"><i class="fa fa-linkedin"></i></a>
-<a href="https://www.instagram.com/ampere_electric_las_vegas/" class="google ab487048654ee2672ac5e1904eb60216b-plus" rel="nofollow"><i class="fa fa-instagram"></i></a>
-<a href="https://www.youtube.com/@AmpereElectricLasVegas" class="youtube ab487048654ee2672ac5e1904eb60216b" rel="nofollow"><i class="fa fa-youtube"></i></a>
-<a href="https://x.com/AmpereElecNV" class="twitter ab487048654ee2672ac5e1904eb60216b" rel="nofollow"><i class="fa fa-twitter"></i></a>
 </div>
+<footer class="u5e9d01511208298521ba8dd3a6309563">
+<div class="container"><div class="row"><div class="col-md-3">
+<h5 class="xdd3347595d4c07c0042ead035e490240 mb-3 f715dbf8ee17074b22986181cf7dc4813"><b>USEFUL LINKS</b></h5> 
+<ul class="t6e310951b0c082789dae9158729569d9">
+<li><a href="https://www.tiktok.com/@ampereelectriclasvegas" rel="nofollow" target="_blank">Same Day Electrician Las Vegas</a></li><li><a href="https://www.bbb.org/us/nv/las-vegas/profile/electrical/ampere-electric-1086-90094274" rel="nofollow" target="_blank">Emergency Electrician Las Vegas</a></li></ul>
+</div></div><div class="row">
+<div class="col-12">
+<div class="fa1e2fdd383d0d1d679b6f844f9ce004b">
+<div><a href="sitemap.html" rel="nofollow">Sitemap | </a>
+<a class="t6e310951b0c082789dae9158729569d9" href="privacy-policy.html" rel="nofollow">Privacy Policy</a> 
+<a href="about-us.html" rel="nofollow">
+<b>About Us</b></a>
+</div><div>
+<p>Follow us</p>
+<a href="https://www.facebook.com/AmpereElectricNV/" class="wa89403b76a3a413a09b8a779f18308a1 facebook" rel="nofollow"><i class="fa fa-facebook"></i></a>
+<a href="https://www.linkedin.com/company/ampere-electric-las-vegas/" class="wa89403b76a3a413a09b8a779f18308a1 pinterest" rel="nofollow"><i class="fa fa-linkedin"></i></a>
+<a href="https://www.instagram.com/ampere_electric_las_vegas/" class="wa89403b76a3a413a09b8a779f18308a1 google-plus" rel="nofollow"><i class="fa fa-instagram"></i></a>
+<a href="https://www.youtube.com/@AmpereElectricLasVegas" class="wa89403b76a3a413a09b8a779f18308a1 youtube" rel="nofollow"><i class="fa fa-youtube"></i></a>
+<a href="https://x.com/AmpereElecNV" class="wa89403b76a3a413a09b8a779f18308a1 twitter" rel="nofollow"><i class="fa fa-twitter"></i></a>
 </div></div>
 </div>
-</footer> 
+</div></div>
+</footer></body>
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
 var dropdowns = document.querySelectorAll('.dropdown-hover');
@@ -331,7 +462,7 @@ var dropdownMenu = dropdown.querySelector('.dropdown-toggle');
 dropdownMenu.addEventListener('click', handleClick);
 });
 });
-</script> 
+</script>
  <script>
 (function() {
   // Works with both BS4 (data-toggle events) and BS5
@@ -370,5 +501,3 @@ dropdownMenu.addEventListener('click', handleClick);
   });
 })();
 </script>
-</body>
-</html>
